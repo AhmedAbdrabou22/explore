@@ -1,13 +1,111 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans+Arabic:wght@300&family=Karantina:wght@300&family=Philosopher:ital,wght@1,700&family=Red+Hat+Display:wght@300&family=Rubik&display=swap');
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.font {
+  font-family: IBM Plex Sans Arabic;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 20px;
+  letter-spacing: 0em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --main-color: #1E1E1E;
+;
+  --Third-color: #989494;
+;
+  --second-color: #2B49FF;
+}
+
+
+/**Style Navbar */
+.navbar {
+  --bs-navbar-padding-y: 1px !important;
+}
+
+.me-auto .nav-link:hover {
+  border-bottom: 2px solid blue;
+}
+
+/**Style Navbar */
+
+
+
+/**Style Main */
+p{
+  color: var(--main-color) !important;
+}
+
+h3 {
+  color: var(--second-color) !important;
+  font-size: 50px !important;
+  font-weight: 900 !important;
+}
+span{
+  color: var(--Third-color);
+}
+#info{
+  font-size: 30px;
+}
+
+.booking{
+  background-color: #1E1E1E !important;
+  color: white !important;
+}
+
+.imgMain{
+  text-align: left;
+}
+/**Style Main */
+
+
+
+/* Style advantage */
+.advantage{
+  margin-top: 180px !important;
+}
+.recommend{
+  background-color: #F2F7FF;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.second{
+  background-color: #FEE6E6;
+}
+.third{
+  background-color: #ECE4FD;
+}
+/* Style advantage */
+
+
+/*** exploreCity */
+.exploreCity{
+  margin-top: 250px;
+}
+
+/*** exploreCity */
+
+
+@media (max-width: 768px){
+  .imgMain{
+    text-align:center !important;
+  }
+  .exploreCity{
+    margin-top: 80px !important;
+  }
 }
