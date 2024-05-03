@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans+Arabic:wght@300&family=Karantina:wght@300&family=Philosopher:ital,wght@1,700&family=Red+Hat+Display:wght@300&family=Rubik&display=swap');
-*{
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
+
 .font {
   font-family: IBM Plex Sans Arabic;
   font-size: 14px;
@@ -15,11 +18,45 @@ body{
   letter-spacing: 0em;
 }
 
+.bottomBorder {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomBorder div {
+  margin-right: 5px;
+  margin-top: -85px;
+  border-radius: 10px;
+  height: 5px;
+  background-color: var(--second-color);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.bottomBorder div:nth-child(1) {
+  width: 40%;
+}
+
+.bottomBorder div:nth-child(2) {
+  width: 5%;
+
+}
+
+.bottomBorder div:nth-child(3) {
+  width: 5%;
+
+}
+
 :root {
   --main-color: #1E1E1E;
-;
+  ;
   --Third-color: #989494;
-;
+  ;
   --second-color: #2B49FF;
 }
 
@@ -38,7 +75,7 @@ body{
 
 
 /**Style Main */
-p{
+p {
   color: var(--main-color) !important;
 }
 
@@ -47,30 +84,34 @@ h3 {
   font-size: 50px !important;
   font-weight: 900 !important;
 }
-span{
+
+span {
   color: var(--Third-color);
 }
-#info{
+
+#info {
   font-size: 30px;
 }
 
-.booking{
+.booking {
   background-color: #1E1E1E !important;
   color: white !important;
 }
 
-.imgMain{
+.imgMain {
   text-align: left;
 }
+
 /**Style Main */
 
 
 
 /* Style advantage */
-.advantage{
+.advantage {
   margin-top: 180px !important;
 }
-.recommend{
+
+.recommend {
   background-color: #F2F7FF;
   width: 130px;
   height: 130px;
@@ -84,28 +125,65 @@ span{
   align-items: center;
   margin: auto;
 }
-.second{
+
+.second {
   background-color: #FEE6E6;
 }
-.third{
+
+.third {
   background-color: #ECE4FD;
 }
+
 /* Style advantage */
 
 
 /*** exploreCity */
-.exploreCity{
+.exploreCity {
   margin-top: 250px;
 }
 
 /*** exploreCity */
+/* Service */
+.titleService {
+  text-align: center;
+  /* border-bottom: 2px solid var(--second-color); */
+  width: 20%;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.cardService {
+  width: 60% !important;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: auto;
+  box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  height: 40vh !important;
+}
 
-@media (max-width: 768px){
-  .imgMain{
-    text-align:center !important;
+#title {
+  font-family: IBM Plex Sans Arabic;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 44.98px;
+  text-align: center;
+
+}
+
+/* Service */
+
+@media (max-width: 768px) {
+  .imgMain {
+    text-align: center !important;
   }
-  .exploreCity{
+
+  .exploreCity {
     margin-top: 80px !important;
   }
 }

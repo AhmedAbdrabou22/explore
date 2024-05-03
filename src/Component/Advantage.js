@@ -7,6 +7,13 @@ const Advantage = () => {
     return (
         <div className='font text-center advantage container'>
             <h3>مميزات اكتشف</h3>
+            <div className='bottomBorder adv' style={{
+                marginTop:"50px"
+            }}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
             <div className='row justify-content-center align-items-center'>
                 <div className='col-lg-3 col-md-6 col-sm-12 mt-5'>

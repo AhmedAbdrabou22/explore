@@ -2,7 +2,7 @@ import './App.css';
 import Advantage from './Component/Advantage';
 import ExploreCity from './Component/ExploreCity';
 import Main from './Component/Main';
-// import Service from './Component/Service';
+import Service from './Component/Service';
 import Navbar from "./utils/NavbarComponent"
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Main/>
       <Advantage/>
       <ExploreCity/>
-      {/* <Service/> */}
+      <Service/>
       
     </div>  
   );
