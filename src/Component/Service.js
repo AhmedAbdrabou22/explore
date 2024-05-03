@@ -15,7 +15,7 @@ import MaskThree from '../images/Maskgroup3.png'
 
 const Service = () => {
     return (
-        <div className='font service'>
+        <div className='font service p-4'>
             <h3 className='titleService'>خدمات اكتشف</h3>
             <div className='bottomBorder'>
                 <div></div>
@@ -23,6 +23,9 @@ const Service = () => {
                 <div></div>
             </div>
             <Swiper
+            style={{
+                padding:"20px"
+            }}
                 modules={[Navigation, Pagination, A11y]}
                 spaceBetween={50}
                 slidesPerView={3}
