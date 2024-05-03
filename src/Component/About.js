@@ -1,5 +1,5 @@
 import React from 'react'
-import MainPhoto from '../images/GroubCity.png'
+import MainPhoto from '../images/view.png'
 const About = () => {
     return (
         <div className='about'>
